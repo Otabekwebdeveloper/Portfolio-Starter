@@ -20,7 +20,7 @@ const About = () => {
             </h3>
             <p className='mb-6 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusamus dolor labore sint, vitae quibusdam iusto sunt et dolore voluptate eaque illo, velit ut?</p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
-              <div>
+              <div> 
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                   {inView ?  <CountUp start={0} end={5} duration={3 } /> :
                   null}
